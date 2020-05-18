@@ -18,14 +18,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 *
 * Date: Tue Aug 09 2011 10:45:54 GMT+0200 (CEST)
 */
-function randomize_border()
-{
- let color = '5px solid #'
- const hex = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F']
- for(let idx = 0; idx < 6; ++idx)
-  color += hex[Math.floor(Math.random() * 16)]
- document.body.style.border = color
-}
 
 function get_size()
 {
