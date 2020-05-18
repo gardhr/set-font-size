@@ -1,7 +1,6 @@
 {
  "manifest_version": 2,
  "name": "set-font-size",
- "id": "set-font-size@gardhr",
  "browser_specific_settings": 
  {
   "gecko": 
