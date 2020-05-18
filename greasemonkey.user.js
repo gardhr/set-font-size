@@ -1,11 +1,14 @@
-// ==OpenUserJS==
+// ==UserScript==
 // @name set-font-size
-// @description For better control over the browser's current font size
-// @author Gardhr
-// @copyright 2020 Gardhr
-// @license MIT
+// @description For better control over the browser's current font size 
 // @version 0.1
-// ==/OpenUserJS==
+// @author Gardhr
+// @license MIT
+// @include *
+// @icon https://github.com/gardhr/set-font-size/blob/master/src/icon.png
+// @run-at document-end
+// @grant none
+// ==/UserScript==
 /*
 
 Copyright (c) 2000 Gardhr
