@@ -1,0 +1,45 @@
+{
+ "manifest_version": 2,
+ "name": "set-font-size",
+ "browser_specific_settings": 
+ {
+  "gecko": 
+  { 
+   "id": "set-font-size@gardhr" 
+  }
+ },
+ "version": "0.1",
+ "author": "Gardhr",
+ "description": "Override your browser's font size",
+ "icons": 
+ {
+  "48": "icon.png", 
+  "96": "icon.png"
+ },
+ "permissions": 
+ [
+  "activeTab"
+ ],
+ "browser_action": 
+ {
+  "default_icon": 
+  {
+    "19": "icon.png",
+    "38": "icon.png"
+  },
+  "default_title": "Set Font"
+ },
+ "content_scripts": 
+ [
+  {
+   "matches": ["<all_urls>"],
+   "js": ["filter.js"]
+  }
+ ],
+ "background": 
+ {
+  "scripts": ["background.js"]
+ }
+}
+
+
