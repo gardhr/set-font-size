@@ -5,7 +5,7 @@
 // @author Gardhr
 // @license MIT
 // @include *
-// @icon https://github.com/gardhr/set-font-size/blob/master/src/icon.png
+// @icon https://github.com/gardhr/set-font-size/blob/master/src/greasemonkey.gif
 // @run-at document-end
 // @grant none
 // ==/UserScript==
